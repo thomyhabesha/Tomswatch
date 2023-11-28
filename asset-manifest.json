@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Tomswatch/static/css/main.0337d57c.css",
+    "main.css": "/Tomswatch/static/css/main.52781f9a.css",
     "main.js": "/Tomswatch/static/js/main.f88fade6.js",
     "static/js/787.9cbe6300.chunk.js": "/Tomswatch/static/js/787.9cbe6300.chunk.js",
     "static/media/2019 Customer Testimonial Video.mp4": "/Tomswatch/static/media/2019 Customer Testimonial Video.82405e3066cdf56c9495.mp4",
@@ -24,12 +24,12 @@
     "static/media/hangingwatch1-removebg-preview.png": "/Tomswatch/static/media/hangingwatch1-removebg-preview.ba3f7b68617c4cb60654.png",
     "static/media/sony-removebg-preview.png": "/Tomswatch/static/media/sony-removebg-preview.2f7c9e30064444ddee97.png",
     "index.html": "/Tomswatch/index.html",
-    "main.0337d57c.css.map": "/Tomswatch/static/css/main.0337d57c.css.map",
+    "main.52781f9a.css.map": "/Tomswatch/static/css/main.52781f9a.css.map",
     "main.f88fade6.js.map": "/Tomswatch/static/js/main.f88fade6.js.map",
     "787.9cbe6300.chunk.js.map": "/Tomswatch/static/js/787.9cbe6300.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0337d57c.css",
+    "static/css/main.52781f9a.css",
     "static/js/main.f88fade6.js"
   ]
 }
