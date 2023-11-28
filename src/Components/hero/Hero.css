@@ -158,12 +158,12 @@ color:white;
     width:100vw;
 }
     .righ-bg-text{
-        width:85%;
+        width:90%;
         display:flex;
         flex-direction: column;
         justify-content: space-between;
         flex-wrap: wrap;
-        height: 320px;
+        height: 370px;
         background-color: #ff7c03;
         padding:0 10px;
         
@@ -171,7 +171,7 @@ color:white;
     
     
     .righ-bg-text p{
-        font-size:1.2rem;
+        font-size:1rem;
         width:290px;
         line-height:1.6rem
     }
@@ -184,9 +184,9 @@ color:white;
 @media screen and (max-width:330px){
     .righ-bg-text{
        
-        height: 330px;
+        height: 350px;
         
-        padding:0 10px;
+        padding:0 0px;
     }
     
     
