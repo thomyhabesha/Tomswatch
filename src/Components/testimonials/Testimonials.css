@@ -1,0 +1,104 @@
+.testimonial{
+    background-color:#fbe4d8 ;
+padding: 35px 0;
+display: flex;
+flex-direction: column;
+gap:30px;
+align-items: center;
+height: 100vh;
+
+}
+.testimonial ul{
+    display: flex;
+    justify-content: space-between;
+    width:70rem;
+    height: 340px;
+}
+
+.testimonial ul li{   
+    text-decoration: none;
+    width:295px;
+    height: 100%;
+    background-color:#dfb6b2 ;
+    list-style: none;
+    
+    
+}
+.testimonial ul p{
+    padding: 15px 25px;
+
+}
+
+.testimonial .btn{
+    padding:10px 20px;
+    font-size:1rem;
+    background-color: rgba(161, 106, 3, 0.932);
+    border-radius:8px;
+    color:black;
+}
+.testimonial a:hover{
+    cursor: pointer;
+    
+}
+
+
+
+
+@media screen and (max-width:840px){
+    .testimonial{
+    padding: 35px 0;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+    height: 80rem;
+}
+    .testimonial ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+        height: 70rem;
+        margin-right: 27px;
+    }
+    
+    .testimonial ul li{   
+        text-decoration: none;
+        width:295px;
+        height: 18rem;
+        background-color:#dfb6b2 ;
+        list-style: none;
+        
+        
+    }
+    .testimonial ul p{
+        padding: 15px 25px;
+    
+    }
+    
+    .testimonial .btn{
+        padding:10px 20px;
+        font-size:1rem;
+        background-color: rgba(161, 106, 3, 0.932);
+        border-radius:8px;
+        color:black;
+    }
+    .testimonial a:hover{
+        cursor: pointer;
+        
+    }
+      
+}
+
+
+
+@media screen and (max-width:330px) {
+    .testimonial ul li{   
+        text-decoration: none;
+        width:265px;
+        height: 18rem;
+        background-color:#dfb6b2 ;
+        list-style: none;
+        
+        
+    } 
+}

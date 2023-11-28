@@ -1,0 +1,44 @@
+.prod-cards{
+    width:176px;
+    height:220px;
+padding: 15px 18px;
+border-radius: 12px;
+display: flex;
+flex-direction: column;
+gap:8px;
+align-items: center;
+}
+.prod-cards:hover{
+    border:2px solid blue;
+    cursor: pointer;
+}
+
+.prod-cards img{
+    width:87px;
+    height: 94px;
+}
+.prod-cards button{
+    border-radius: 12px;
+    background-color: #740707;
+    color:white;
+}
+
+
+@media screen and (max-width:837px){
+    .prod-cards{
+        width:200px;
+        height:250px;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    align-items: center;
+    }
+    
+    
+    .prod-cards img{
+        width:100px;
+        height: 105px;
+    }
+   
+}

@@ -1,0 +1,25 @@
+.class{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.class div{
+    border:1px solid blue;
+    width:15rem;
+    height: 15rem;
+
+}
+.H1{
+    background-color: yellowgreen;
+}
+.responsive{
+    background-color: blue;
+}
+.class div img{
+    width:100%;
+    height: 40%;
+
+}

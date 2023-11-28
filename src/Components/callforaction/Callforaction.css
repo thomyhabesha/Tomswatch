@@ -1,0 +1,234 @@
+.action{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding: 40px 25px;
+    height: 100vh;
+    
+}
+.action > h1{
+    font-size: 2.3rem;
+    align-self: center;
+}
+.partners{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 150px;
+    align-self: center;
+}
+.partners img{
+    width:150px;
+    height: 75px;
+}
+.action-contact{
+    width:30rem;
+    height: 25rem;
+    background-color: rgb(136, 93, 1);
+    color:black;
+    padding:40px  0 0 30px ;
+    display: flex;
+    flex-direction: column;
+    gap:15px;
+    border-radius: 8px;
+    box-shadow: -8px 8px 8px rgba(165, 42, 42, 0.712);
+}
+.action-contact input{
+    padding:10px 8px;
+    width:220px;
+    border: none;
+    outline: none;
+}
+.action-contact a{
+    border-radius: 8px;
+    background-color:rgb(141, 66, 4) ;
+    color:black;
+    padding: 8px 10px;
+    margin-top: 10px;
+    align-self: flex-start;
+    text-decoration: none;
+}
+.action-contact h1{
+    font-size: 2.3rem;
+width:120px
+
+}
+.action-contact h1 span{
+    color:red;
+}
+.action-contact p{
+    width:23rem
+}
+.action-contact a:hover{
+    cursor: pointer;
+ 
+    
+}
+
+
+@media screen and (max-width:835px) {
+    .action{
+        display: flex;
+        flex-direction: column;
+            padding: 40px 15px;
+            height: 90vh;
+        
+    }
+    .action-contact{
+        width:32rem;
+        height: 28rem;
+    }
+    .action-contact p{
+        width:22rem;
+        font-size: 1.4rem;
+    }
+}
+
+
+ @media screen and (max-width:760px) {
+    .action{
+        display: flex;
+        flex-direction: column;
+            padding: 40px 15px;
+            height: 100vh;
+        
+    }
+    
+    .partners{
+       
+        justify-content: space-between;
+        width: 97%;
+       
+    }
+    .partners img{
+        width:85px;
+        height: 48px;
+    }
+    .action-contact{
+        width:24rem;
+        height: 25rem;
+        padding:40px  0 0 30px ;
+        
+    box-shadow: -9px 11px 8px rgba(165, 42, 42, 0.712);
+    }
+    .action-contact input{
+        padding:7px 8px;
+        width:180px;
+    }
+    
+    .action-contact h1{
+        font-size: 2rem;
+    width:120px
+    
+    }
+    .action-contact h1 span{
+        color:red;
+    }
+    .action-contact p{
+        width:19rem;
+        font-size: 1.1rem;
+    }
+    .action-contact a:hover{
+        cursor: pointer;
+        
+    }
+ }
+
+ 
+ @media screen and (max-width:700px) {
+    
+    .partners img{
+        width:90px;
+        height: 72px;
+    }
+    .action-contact{
+        width:22rem;
+        height: 25rem;
+        padding:40px  0 0 10px ;
+        
+    box-shadow: -9px 11px 8px rgba(165, 42, 42, 0.712);
+    }
+    .action-contact input{
+        padding:7px 8px;
+        width:180px;
+    }
+    
+    .action-contact h1{
+        font-size: 2rem;
+    width:120px
+    
+    }
+    .action-contact h1 span{
+        color:red;
+    }
+    .action-contact p{
+        width:19rem;
+        font-size: 1rem;
+        line-height: 1.5rem
+    }
+    partners{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        height: 150px;
+        align-self: center;
+    }
+   
+ }
+
+
+ @media screen and (max-width:370px) {
+    
+    
+    .action-contact{
+        width:20rem;
+        height: 28rem;
+        padding:40px  0 0 30px ;
+        
+    }
+    
+    
+    .action-contact p{
+        width:15rem;
+        font-size: 0.9rem;
+        line-height: 1.7rem
+    }
+    .action-contact a:hover{
+        cursor: pointer;
+        
+    }
+   
+
+ }
+
+ 
+ @media screen and (max-width:330px) {
+    .action{
+        
+        height: 47rem;
+        
+    }
+    .action > h1{
+        font-size: 2rem;
+     
+    }
+   
+    .partners img{
+        width:70px;
+        height: 35px;
+    }
+    
+    .action-contact{
+        width:18rem;
+        height:28rem;
+        padding:20px  0 0 20px ;
+        
+    }
+    
+    
+    .action-contact p{
+        width:13rem;
+        font-size: 0.9rem;
+        line-height: 1.7rem
+    }
+ }

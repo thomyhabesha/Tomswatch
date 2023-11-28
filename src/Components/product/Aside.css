@@ -1,0 +1,345 @@
+
+.product .aside{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius:8px;
+    width:218px;
+    height:425px;
+}
+.aside-top{
+    display: grid;
+    grid-template-columns: 90px 90px;
+    grid-template-rows: 60px 60px;
+    padding:  20px 10px;
+    border-bottom: 15px solid  #d6d6d6;
+    height: 160px;
+    
+
+}
+.aside-top p{
+    border-radius: 15px;
+    background-color: #d9d9d9;
+    width:57px;
+     height:30px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+.loctaion{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px 15px;
+    border-bottom: 15px solid  #d6d6d6;
+}
+.laction-toggle{
+    border-radius: 13px;
+    width:45px;
+    height:20px;
+    background-color: blue;
+    display: flex;
+    justify-content: flex-end;
+}
+.toggle-change{
+    background-color: white;
+    width:20px;
+    height:100%;
+    border-radius: 23px;
+}
+
+.bottom-aside{
+    display: grid;
+    grid-template-columns: 75px 70px 70px;
+    grid-template-rows: 60px 60px;
+    padding:  20px 10px;
+}
+.bottom-aside p:nth-child(2), .bottom-aside p:nth-child(3){
+    width:60px;
+    height:28px;
+    background-color: #d9d9d9;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 0.9rem;
+     border-radius: 13px;
+     
+}
+.bottom-aside p:nth-child(2):hover , 
+.bottom-aside p:nth-child(3):hover, 
+.aside-top p:hover{
+cursor:pointer;
+background-color: #8f8c8c;
+transition: 1s ease;
+}
+.toggle-change:hover:hover{
+    cursor:pointer
+}
+.bottom-aside p:nth-child(5){
+    color:blue;
+   grid-column-start:2 ;
+   grid-column-end: 4;
+}
+.aside-bottom-line{
+    background-color: black;
+    border-radius:12px; 
+    height:9px;
+    width:150px;
+    align-self:center;
+}
+.hmain .nav-btn{
+    padding: 5px;
+    cursor: pointer;
+ background-color: transparent;
+ visibility: hidden;
+ opacity: 0;
+ font-size: 1.8rem;
+padding:10px 18px;
+background-color: rgb(202, 201, 201);
+    box-shadow: -6px 6px 8px rgb(99, 98, 98);
+    border-radius: 7px;
+    align-self: flex-start;
+ }
+
+
+@media screen and (max-width:837px){
+    .hmain .nav-btn{
+        visibility: visible;
+        opacity: 1;
+     }
+
+     .product  .aside{
+        position: fixed;
+        top:0;
+        left:0;
+        height: 100%;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:1.8rem;
+  
+  background-color: white;
+  z-index: 1;
+  transition: 1s;
+  transform: translateY(-100vh);
+  }
+  .hmain .responsive_nav{
+     transform: none;
+  }
+  .aside .nav-close-btn{
+  position: absolute;
+  top:2rem;
+  right:2rem;
+  }
+  
+
+
+.aside-top{
+    grid-template-columns: 140px 140px;
+    grid-template-rows: 100px 100px;
+    padding:  20px 10px;
+    height: 227px;
+}
+.aside-top p{
+    width:100px;
+     height:80px;
+     font-size: 1.2rem;
+
+}
+.loctaion{
+    
+    width: 280px;
+    gap:60px;
+    padding:20px 5px;
+    font-size: 1.8rem;
+}
+.laction-toggle{
+    border-radius: 13px;
+    width:75px;
+    height:50px;
+    justify-content: flex-end;
+}
+.toggle-change{
+    
+    width:50px;
+    height:100%;
+    border-radius: 23px;
+}
+
+.bottom-aside{
+    grid-template-columns: 105px 150px 100px;
+    grid-template-rows: 90px 90px;
+    padding:  20px 10px;
+    font-size: 1.3rem;
+}
+.bottom-aside p:nth-child(2), .bottom-aside p:nth-child(3){
+    width:105px;
+    height:52px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 1.4rem;
+     
+}
+
+}
+
+
+
+@media screen and (max-width:760px){
+    .hmain .nav-btn{
+        visibility: visible;
+        opacity: 1;
+     }
+
+     .product  .aside{
+        position: fixed;
+        top:0;
+        left:0;
+        height: 100%;
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:1.8rem;
+  
+  background-color: white;
+  z-index: 1;
+  transition: 1s;
+  transform: translateY(-100vh);
+  }
+  .hmain .responsive_nav{
+     transform: none;
+  }
+  .aside .nav-close-btn{
+  position: absolute;
+  top:2rem;
+  right:2rem;
+  }
+  
+
+
+.aside-top{
+    grid-template-columns: 120px 120px;
+    grid-template-rows: 90px 90px;
+    padding:  20px 10px;
+    height: 215px;
+}
+.aside-top p{
+    width:87px;
+     height:60px;
+     font-size: 1rem;
+
+}
+.loctaion{
+    
+    width: 200px;
+    gap:20px;
+    padding:20px 5px;
+    font-size: 1.3rem;
+}
+.laction-toggle{
+    border-radius: 13px;
+    width:55px;
+    height:30px;
+    justify-content: flex-end;
+}
+.toggle-change{
+    
+    width:30px;
+    height:100%;
+    border-radius: 23px;
+}
+
+.bottom-aside{
+    grid-template-columns: 95px 90px 90px;
+    grid-template-rows: 60px 60px;
+    padding:  20px 10px;
+    font-size: 1.3rem;
+}
+.bottom-aside p:nth-child(2), .bottom-aside p:nth-child(3){
+    width:75px;
+    height:32px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 1.1rem;
+     
+}
+}
+
+@media screen and (max-width:400px){
+    .hmain .nav-btn{
+        visibility: visible;
+        opacity: 1;
+        
+    
+     }
+
+     .product  .aside{
+        gap:0.3rem;
+  }
+  
+  .aside .nav-close-btn{
+  position: absolute;
+  top:10px;
+  right:10px;
+  
+padding:5px 5px;
+font-size: 17px;
+  }
+  
+
+
+.aside-top{
+    grid-template-columns: 100px 100px;
+    grid-template-rows: 90px 90px;
+    margin-top:130px
+}
+.aside-top p{
+    width:77px;
+     height:50px;
+     font-size: 1rem;
+
+}
+.loctaion{
+    
+    width: 200px;
+    gap:20px;
+    padding:20px 5px;
+    font-size: 1.3rem;
+}
+.laction-toggle{
+    border-radius: 13px;
+    width:55px;
+    height:30px;
+    justify-content: flex-end;
+}
+.toggle-change{
+    
+    width:30px;
+    height:100%;
+    border-radius: 23px;
+}
+
+.bottom-aside{
+    grid-template-columns: 95px 90px 90px;
+    grid-template-rows: 60px 60px;
+    padding:  20px 10px;
+    font-size: 1.3rem;
+}
+.bottom-aside p:nth-child(2), .bottom-aside p:nth-child(3){
+    width:75px;
+    height:32px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     font-size: 1.1rem;
+     
+}  
+}

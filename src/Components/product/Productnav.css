@@ -1,0 +1,66 @@
+.productnav{
+    width:100%;
+    height: 100px;
+    background-color: rgb(46, 10, 104);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.productnav h1{
+    font-size: 2rem;
+    margin-left: 30px ;
+    color:white;
+    margin-right: auto;
+}
+.shping-icon{
+    display: flex;
+    width:65px;
+    margin-right: 80px;
+    justify-content: space-between;
+    color:white;
+}
+.shping-icon p:nth-child(2){
+    background-color: red;
+    width:20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    margin-left:5px;
+}
+.productnav h1:hover,.productnav p:hover{
+    cursor:pointer
+}
+.home a{
+text-decoration:none;
+color:white;
+margin-right: 70px;
+font-size:1.2rem;
+}
+
+@media screen and (max-width:370px){
+    .productnav h1{
+        font-size: 1.5rem;
+        margin-left: 30px ;
+        color:white;
+        margin-right: 50px;
+    
+    }
+}
+
+@media screen and (max-width:330px){
+    .productnav h1{
+        font-size: 1.5rem;
+        margin-left: 30px ;
+        color:white;
+        margin-right: 35px;
+
+    }
+    .shping-icon{
+        display: flex;
+        width:65px;
+        margin-left:-20px;
+        justify-content: space-between;
+        color:white;
+    }
+    
+}
