@@ -5,10 +5,10 @@ import Info from '../Components/info/Info'
 import Testimonials from '../Components/testimonials/Testimonials' 
 import Callforaction from '../Components/callforaction/Callforaction' 
 import Footer from '../Components/footer/Footer' 
-
+import './Home.css'
 function Home() {
   return (
-    <div>
+    <div className='home'>
       
         <Nav  />
         <Hero  />
