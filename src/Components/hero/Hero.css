@@ -131,7 +131,7 @@ color:white;
         
         .righ-bg-text{
             width:400px;
-           
+        
             flex-wrap: wrap;
             height: 320px;
             
@@ -164,8 +164,8 @@ color:white;
         justify-content: space-between;
         flex-wrap: wrap;
         height: 320px;
-        
-        padding:0 20px;
+        background-color: #ff7c03;
+        padding:0 10px;
         
     }
     
