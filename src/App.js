@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react"
+import React from "react"
 import {HashRouter, Routes,Route} from 'react-router-dom'
 import Home from './page/Home'
 import Buy from './page/Buy'
