@@ -26,7 +26,7 @@ align-items: center;
 
 @media screen and (max-width:837px){
     .prod-cards{
-        width:200px;
+        width:160x;
         height:250px;
     border-radius: 12px;
     display: flex;
@@ -37,8 +37,8 @@ align-items: center;
     
     
     .prod-cards img{
-        width:100px;
-        height: 105px;
+        width:70px;
+        height: 85px;
     }
    
 }

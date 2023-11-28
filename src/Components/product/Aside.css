@@ -274,6 +274,9 @@ background-color: rgb(202, 201, 201);
 }
 
 @media screen and (max-width:400px){
+    .hmain {
+        width:100vw;
+    }
     .hmain .nav-btn{
         visibility: visible;
         opacity: 1;
@@ -283,6 +286,7 @@ background-color: rgb(202, 201, 201);
 
      .product  .aside{
         gap:0.3rem;
+        width:100vw;
   }
   
   .aside .nav-close-btn{
