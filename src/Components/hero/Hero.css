@@ -102,9 +102,7 @@ color:white;
         }
         .righ-bg-text{
             width:504px;
-            display:flex;
-            flex-direction: column;
-            justify-content: flex-start;
+           
             flex-wrap: wrap;
             height: 320px;
             
@@ -133,9 +131,7 @@ color:white;
         
         .righ-bg-text{
             width:400px;
-            display:flex;
-            flex-direction: column;
-            justify-content: flex-start;
+           
             flex-wrap: wrap;
             height: 320px;
             
