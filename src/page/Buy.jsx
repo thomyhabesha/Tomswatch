@@ -3,6 +3,8 @@ import Product from '../Components/product/Product'
 import Nav from '../Components/product/Productnav'
 import Footer from '../Components/footer/Footer'
 import Cart from '../Components/cart/Cart'
+import './buy.css'
+
 function Buy() {
   const [show,setshow]=useState(true)
   const [cart,setcart]=useState([])

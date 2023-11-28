@@ -30,7 +30,7 @@
 .productnav h1:hover,.productnav p:hover{
     cursor:pointer
 }
-.home a{
+.homenav a{
 text-decoration:none;
 color:white;
 margin-right: 70px;

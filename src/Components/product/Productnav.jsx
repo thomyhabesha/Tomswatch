@@ -7,7 +7,7 @@ export default function Productnav({setshow,size}){
    <div className="productnav">
 
     <h1 onClick={()=>setshow(true)}>Shoping</h1>
-    <div className="home">
+    <div className="homenav">
         <Link to="/" >Home</Link>
         </div>
     <div className="shping-icon">
