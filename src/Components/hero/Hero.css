@@ -161,7 +161,9 @@ color:white;
 
 
 @media screen and (max-width:400px){
-
+.right-hero-watch{
+    width:100vw;
+}
     .righ-bg-text{
         width:400px;
         display:flex;
