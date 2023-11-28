@@ -160,7 +160,7 @@ margin:-40px -80px 0 0;
 
 @media screen and (max-width:400px) {
     .testimonial2{
-        height: 74rem;
+        height: 70rem;
         display: flex;
         flex-direction: column;
         
@@ -172,7 +172,7 @@ margin:-40px -80px 0 0;
     .testi-header{
         background-color: rgb(70, 0, 0);
         padding: 25px 0 80px 40px;
-            height: 80px;
+    
             width:320px;
     
     }
